@@ -28,8 +28,8 @@
 #include <unistd.h>
 #include <io.hpp>
 
-const int8_t wifi_ssid[32]="The_Blue_Pill";				/// SSID of WIFI network
-const int8_t wifi_passwd[32]="TheArchitect1322260";		/// Password for above mentioned WIFI network
+const int8_t wifi_ssid[32]="lenovo";				/// SSID of WIFI network
+const int8_t wifi_passwd[32]="lenovo123";		/// Password for above mentioned WIFI network
 const int8_t wifi_serverip[32] = "10.0.0.201";	/// Server IP address
 const uint16_t wifi_server_port = 8080;			/// Server listening port
 char tempBuffer[256] = {0};						/// Buffer to store temporary data
